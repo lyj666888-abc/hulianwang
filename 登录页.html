@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>登陆</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 100px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            width: 95%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .forgot-password {
+            text-align: right;
+            margin-bottom: 10px;
+        }
+        
+        .social-login {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .social-login a {
+            display: inline-block;
+            margin: 0 5px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><img id="img" src="校徽.png" width="40"height="40"position: absolute;top:30px>双光束手部血管识别系统</h1>
+        <form name="input" target="_blank" action="1.html" method="get">
+            <input type="text" id="username" placeholder="用户名/邮箱">
+            <input type="password" id="password" placeholder="密码">
+            <label>
+                <input type="checkbox" id="remember-me"> 自动登录
+            </label>
+            <div class="forgot-password">
+                <a href="#">注册|忘记密码?</a>
+            </div>
+            <input type="submit" value="登录">
+        </form>       
+    </div>
+</body>
+</html>
